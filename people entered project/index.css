@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background: #27292c;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-content: center;
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+.container{
+    max-width: 450px;
+    height: 400px;
+    background-image: url("/images/natureeee.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin:50px auto;
+    padding: 20px;
+    box-shadow: 2px 5px 3px black;
+}
+
+.container span{
+   border-bottom: 5px solid #B33951;
+}
+
+.container h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px black;
+}
+
+.container h2{
+    font-size: 2rem;
+}
+
+.container p{
+    font-size: 1rem;
+    background-color: #27292c;
+    padding: 15px ;
+    border-radius: 0 0 10px 10px;
+}
+#incremnt-btn,#save-btn{
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #91C7B1;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 2px 5px 3px black;
+    font-weight: 800;
+    outline: none;
+}
+
+#save-btn{
+      background-color: #E3D081;  
+      transition: background, .5s ease-in-out;
+}
+
+#save-btn:hover{
+         background-color: #F1F7ED; 
+         color: #B33951;
+}
+
+.social-media{
+        text-align: center;  
+    display: inline-block;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #fff;
+    margin: 25px;
+}
+
+.social-media a i{
+    font-size: 15px;
+    transition: all .5s ease;  
+}
+
+.social-media a i:hover{
+    font-size: 30px;
+   box-shadow: 1px 2px 3px black;
+}
+
+.container q{
+    margin-top: 25px;
+}
+    
